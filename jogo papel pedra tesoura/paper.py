@@ -1,6 +1,6 @@
 import random 
 
-user_points = 0
+jogador = 0 #user_points
 computer_points = 0
 
 
@@ -27,26 +27,26 @@ while True:
 
     elif user_choice == "r" and computer_option == "t":
         print("Você ganhou!")
-        user_points = user_points + 1
+        jogador = jogador + 1
 
     elif user_choice == "p" and computer_option == "r":
         print("Você ganhou!")
-        user_points = user_points + 1
+        jogador = jogador + 1
 
     elif user_choice == "t" and computer_option == "p":
         print("Você ganhou!")
-        user_points = user_points + 1
+        jogador = jogador + 1
 
     else:
         print("Você perdeu!")
         computer_points = computer_points + 1
 
-print("Sua pontuação: " + str(user_points))
+print("Sua pontuação: " + str(jogador))
 print("Pontuação do Computador: " + str(computer_points))
 
-if computer_points > user_points:
+if computer_points > jogador:
     print("Derrota!!!!")
-elif computer_points == user_points:
+elif computer_points == jogador:
     print("Empate")
 else:
     print("Vitória!!")    
