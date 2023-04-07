@@ -21,4 +21,7 @@ Cada projeto tem um arquivo que e facil de executá-lo.</p>
 :tada: :tada: Jogo de adivinhar números: um jogo onde o jogador deve adivinhar um número aleatório dentro de um 
 intervalo definido pelo usuario.</p>
 
+:tada: :tada: Primeiros passos utilizando o python  declaração de variaveiveis tipo de variaveis concatenação F-string
+operações soma,subtração divisão.
+
 :sparkles: :sparkles:  **Proximos add** 
